@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top-bar {
+    padding: 0em 1.2em;
+    margin: -2em 0em;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+header.sticky {
+    transition: .5s;
+    background-color: #fff;
+    width: 100%;
+    margin-top: -40px;
+    height: 80px;
+}
+
+section {
+    padding: 1em;
+    margin: 2.2em 2.1em;
+}
+
+.top-bar {
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    padding: 8px;
+    object-fit: fill;
+}
+
+.logo svg {
+    height: 70px;
+    width: 90px;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    padding: 0 0 2em;
+}
+
+.nav-bar {
+    padding: 0 1em;
+    width: 650px;
+}
+
+nav {
+    display: flex;
+    margin-left: 2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover {
+    transition: .5s;
+    color: #7552f6;
+}
+
+header nav ul li {
+    padding: 9px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.col-body {
+    display: flex;
+    position: relative;
+    height: 91vh;
+    padding: 60px 35px;
+}
+
+.col-right {
+    width: 40em;
+    height: 40em;
+}
+
+.col-right .title {
+    line-height: 2em;
+}
+
+.title-content h1 {
+    font-size: 510%;
+    line-height: 1.1em;
+}
+
+.title-content p span {
+    font-size: 200%;
+}
+
+.title-content h1,
+p {
+    margin-top: 12px;
+}
+
+.btn {
+    background-color: #7552f6;
+    margin-top: 3em;
+    width: 9em;
+    height: 45px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 26px;
+    color: #fff;
+}
+
+.col-left img {
+    height: 500px;
+    position: relative;
+    width: 110%;
+    top: -2em;
+    left: 2em;
+    padding: 3em;
+}
+
+.active {
+    color: #7552f6;
+}
+
+.top-left {
+    display: flex;
+    padding: 1.8em;
+    margin-left: 19em;
+}
+
+.sign-bar {
+    padding: 8px 1em;
+    border: 1px solid #7552f6;
+    border-radius: 3em;
+    height: 40px;
+    width: 100px;
+}
+
+.sign-bar a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #7552f6;
+}
+
+.sign-bar:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-color: #f6f4fe;
+}
+
+.top-left .btn-gts {
+    background-color: #7552f6;
+    padding: 10px 1.5em;
+    height: 40px;
+    width: 120px;
+    margin-left: 1em;
+    border-radius: 3em;
+    color: #fff;
+}
+
+.btn-gts:hover {
+    cursor: pointer;
+    transition: .2s;
+    background-color: #9897ee;
+}
+
+.brand {
+    padding: 4em 11em;
+    background-color: #f6f4fe;
+}
+
+.brand img {
+    height: 30px;
+    margin-left: 1.2em;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    padding: 8em 3em;
+}
+
+.card .content-card1 {
+    position: relative;
+    top: -4em;
+    left: 6em;
+    max-width: 500px;
+    width: 80%;
+    text-align: center;
+    box-shadow: -4px 3px 3px rgba(0, 0, 0, .08);
+}
+
+.card .content-card1 img {
+    padding: 2em;
+}
+
+.card .content-card1 p {
+    padding: 0 7.4em;
+}
+
+.card .content-card1 h4 {
+    font-size: 200%;
+}
+
+.card .content-card2 {
+    position: relative;
+    top: 4em;
+    left: 10em;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: -4px 3px 3px rgba(0, 0, 0, .08);
+}
+
+.card .content-card2 img {
+    padding: 2em;
+}
+
+.card .content-card2 p {
+    padding: 0 7.4em;
+}
+
+.card .content-card1 img {
+    padding: 2em;
+}
+
+.card .content-card2 h4 {
+    font-size: 200%;
+}
+
+.content-col {
+    padding: 2em;
+}
+
+.faint-title {
+    color: #b7b5c0;
+    font-size: larger;
+}
+
+.content-col {
+    width: 375px;
+}
+
+.content-col h2 {
+    font-size: 300%;
+    margin-top: 20px;
+}
+
+.cont-g {
+    position: relative;
+    display: flex;
+}
+
+.content-right {
+    width: 490px;
+}
+
+.content-right h2 {
+    font-size: 370%;
+    margin-top: 20px;
+}
+
+.cont-g .card-left {
+    position: relative;
+    top: -3em;
+    left: 20em;
+    padding: 0 1em;
+}
+
+.cont-g .card-left img {
+    width: 520px;
+    height: 250px;
+}
+
+.footer {
+    position: relative;
+    height: 42vh;
+    background-color: #403f49;
+    color: #fff;
+}
+
+.footer .content {
+    height: 120px;
+    text-align: center;
+}
+
+.content h1 {
+    position: relative;
+    top: 2em;
+}
+
+.copyright {
+    position: relative;
+    text-align: center;
+}
+
+.copyright h1 {
+    position: relative;
+    top: 2em;
+}
+
+.copyright h1 .author {
+    box-shadow: -3px 2px 5px rgba(3, 3, 3, 3);
+    font-size: 120%;
+}
